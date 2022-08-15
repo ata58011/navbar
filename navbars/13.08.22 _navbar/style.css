@@ -1,0 +1,60 @@
+html { 
+    background: url(images/bg.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  body{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+nav{
+    background-color:dodgerblue;
+    height: 90px;
+    
+}
+  .logo{
+
+    display: inline-block;
+    color: #eeee;
+    font-size: 50px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 120px;
+
+  }
+
+
+nav ul  {
+    
+    float: right;
+    margin: 0;
+    padding-right: 60px;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 32px;
+    padding-left: 18px ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #eeee;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+
+nav ul li a:hover{
+    background-color: #1bb3f5;
+    wid
+    
+
+}
+

@@ -1,0 +1,51 @@
+body{background-color: gray;
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.btn{
+    width: 200px;
+    height: 60px;
+    background-color: #ffc107;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.btn::before{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-family: sans-serif;
+    content: 'Hover Me';
+}
+
+.btn:hover::before{
+    top: -50px;
+}
+
+
+.btn i::before{
+    display: inline;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+  
+
+}
+
+.btn i:hover::before{
+    top: -40px;
+}
+
+
+
+/* Hic yoktan iyidir bu konuda position nedir onu ogrendim azda olsa simdi position nedir bir arastirip bakacagim iyice ve bu onceki ornegi iyice inceleyip nasil yaptigimizi anlamaya calisacagim

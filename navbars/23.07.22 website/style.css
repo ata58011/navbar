@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#fff ;
+}
+
+body { 
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* container start*/
+.container{
+     background-color:#B25068;
+     width: 500px;
+     height: 520px;
+     margin-top: 80px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 60px;
+}
+/* container end*/
+
+/* content start*/
+.trump { 
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+background-color: #603601;
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 20px;
+    
+   
+    
+    
+    
+}
+.content h1 {text-align: center;
+margin-top: 20px;}
+
+.content h2 {
+ 
+ text-align: center;
+ margin-top: 20px;
+
+
+
+    
+}
+.content p {
+  text-align: center;
+
+  margin: 20px;
+}
+
+.links{ 
+    margin-left: 130px;
+}
+.links a {
+    text-decoration: none;
+    display: inline-block;
+}
+.links  a img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+   
+    
+    column-gap: 0;
+
+}
+
+
+
+/* content end*/
+
+
+
+
+
+
+
+
+
